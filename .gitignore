@@ -1,0 +1,54 @@
+# 本地任务书、分析报告和开发文档。
+/doc/
+/docs/
+
+# 程序输出、构建目录和 Qt Creator 的本机配置。
+/bin/
+/build/
+/build-*/
+/cmake-build-*/
+/.qtcreator/
+*.user
+*.user.*
+/CMakeUserPresets.json
+
+# 本地测试漫画，不上传图片、压缩包或其他漫画原文件。
+/resources/
+
+# 源码目录内意外生成的 CMake 文件及编译产物。
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+*.pdb
+*.ilk
+
+# 本地数据库及 SQLite 事务、WAL 辅助文件。
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# 系统文件与编辑器临时文件。
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
